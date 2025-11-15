@@ -74,16 +74,16 @@ const course ={
 // const {courseInstructor} = course;
 // console.log(courseInstructor);
  // rename also by this way
-const {courseInstructor: Instrcutor} = course;
+// const {courseInstructor: Instrcutor} = course;
 // console.log(Instrcutor);
 
 // Destructuring in arrow function
 
-const navbar =({company}) => {
+// const navbar =({company}) => {
 
 // console.log(company);
-}
-navbar({company :"virendra"})
+// }
+// navbar({company :"virendra"})
 
 // small intro to JSON
 
@@ -93,9 +93,9 @@ navbar({company :"virendra"})
 //     "fees":"91000"   
 // }
 
-[
-    {},
-    {},
-    {},
-    {}
-]
+// [
+//     {},
+//     {},
+//     {},
+//     {}
+// ]
