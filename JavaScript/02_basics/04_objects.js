@@ -60,4 +60,42 @@ const users =[
 // // get both keys and values
 // console.log(Object.entries(users));
 
-console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+// console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+
+
+// destructuring of object 
+
+const course ={
+    coursename : "Js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// const {courseInstructor} = course;
+// console.log(courseInstructor);
+ // rename also by this way
+const {courseInstructor: Instrcutor} = course;
+// console.log(Instrcutor);
+
+// Destructuring in arrow function
+
+const navbar =({company}) => {
+
+// console.log(company);
+}
+navbar({company :"virendra"})
+
+// small intro to JSON
+
+// {
+//     "name":"virendra",
+//     "coursename":"full stack in JAVA",
+//     "fees":"91000"   
+// }
+
+[
+    {},
+    {},
+    {},
+    {}
+]
