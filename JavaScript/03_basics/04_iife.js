@@ -3,5 +3,5 @@
     console.log(`DB CONNECTED`);
  })();
 ( (name) =>{
-    console.log(`db connected two ${name}`); 
-})('virendra')
+    console.log(`DB CONNECTED TWO ${name}`); 
+})('VIRENDRA')
