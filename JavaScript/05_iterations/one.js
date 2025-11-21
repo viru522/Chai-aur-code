@@ -11,7 +11,7 @@
 for (let index = 1; index <=100; index++) {
     const element = index;
     for (let i = 1; i <= 10; i++) {
-        console.log(` ${index} * ${i} = ${index*i}`);
+        console.log(`${index} * ${i} = ${index*i}`);
         const element = i;
     }
     console.log(index);
